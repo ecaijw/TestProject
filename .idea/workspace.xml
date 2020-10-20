@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f7cc10-a7b4-455d-8185-9196d06ff018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TestProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestProject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestProject/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestProject/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestProject/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestProject/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestProject/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,5 +44,11 @@
       <updated>1603091479229</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="600" height="408" key="javadoc.popup" timestamp="1603188982242">
+      <screen x="0" y="0" width="1832" height="1080" />
+    </state>
+    <state width="600" height="408" key="javadoc.popup/0.0.1832.1080@0.0.1832.1080" timestamp="1603188982242" />
   </component>
 </project>

@@ -19,6 +19,7 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
+    path('runoob/', views.runoob),
     path('hello/', views.hello),
     url(r'^$', views.hello),
     path('polls/', include('polls.urls')),
