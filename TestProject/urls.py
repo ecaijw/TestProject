@@ -20,6 +20,8 @@ from . import views
 
 urlpatterns = [
     path('runoob/', views.runoob),
+    path('runoob2/', views.runoob2),
+    path('runoob3/', views.runoob3),
     path('hello/', views.hello),
     url(r'^$', views.hello),
     path('polls/', include('polls.urls')),

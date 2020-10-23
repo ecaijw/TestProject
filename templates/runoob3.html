@@ -1,0 +1,72 @@
+<p>following: list</p> <!--# dict-->
+<p>{{ views_list }}</p> <!--# 取出整个列表-->
+<p>{{ views_list.0 }}</p> <!--# 取出列表的第一个元素-->
+
+<p>following: dict</p> <!--# dict-->
+<p>{{ views_dict }}</p> <!--# dict-->
+<p>{{ views_dict.name }}</p> <!--# dict-->
+
+try some filters<br>
+# try filter: default<br>
+<p>{{ default_text|default:"菜鸟教程666" }}</p>
+# try filter: length<br>
+<p>views_list | length: {{ views_list | length }}</p>
+# try filter: filesizeformat<br>
+<p>{{ num1 | default:123456789 | filesizeformat }}</p>
+<p>{{ num2 | filesizeformat }}</p>
+# try filter: datetime<br>
+<p>{{ time |  date:"Y-m-d"  }}</p>
+
+# try filter: safe<br>
+<p>no safe: {{ views_str }}</p>
+<p>safe: {{ views_str | safe }}</p>
+
+# try filter: if-else<br>
+<!--
+{% if condition1 %}
+   ... display 1
+{% elif condition2 %}
+   ... display 2
+{% else %}
+   ... display 3
+{% endif %}-->
+test: if-else<br>
+<p>num is: {{ num | default:0 }}</p>
+{% if num > 90 and num <= 100 %}
+优秀
+{% elif num > 60 and num <= 90 %}
+合格
+{% else %}
+太烂了
+{% endif %}
+<br>
+
+<!-- https://www.runoob.com/django/django-template.html -->
+<!--
+<ul>
+{% for athlete in athlete_list %}
+    <li>{{ athlete.name }}</li>
+{% endfor %}
+</ul>-->
+try: for tag<br>
+<ul>
+{% for athlete in athlete_list %}
+    <li>{{ athlete }}</li>
+    <li>{{ athlete.name }}</li>
+{% endfor %}
+</ul>
+
+<ul>
+{% for i in views_list %}
+    <li>i of views_list: {{ i }}</li>
+{% endfor %}
+</ul>
+
+<!-- traverse the dict -->
+traverse the dict<br>
+{% for athlete in athlete_list %}
+    {% for i,j in athlete.items %}
+    {{ i }} --- {{ j }};
+    {% endfor %}
+    <br>
+{% endfor %}
