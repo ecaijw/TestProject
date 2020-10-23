@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f7cc10-a7b4-455d-8185-9196d06ff018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/runoob_static.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/runoob_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/runoob_child.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/views.py" afterDir="false" />
     </list>

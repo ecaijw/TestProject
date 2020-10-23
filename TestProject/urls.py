@@ -23,6 +23,7 @@ urlpatterns = [
     path('runoob2/', views.runoob2),
     path('runoob3/', views.runoob3),
     path('runoob_static/', views.runoob_static),
+    path('runoob_child/', views.runoob_child),
     path('hello/', views.hello),
     url(r'^$', views.hello),
     path('polls/', include('polls.urls')),

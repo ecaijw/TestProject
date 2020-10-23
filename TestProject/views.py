@@ -60,5 +60,10 @@ def runoob3(request):
 # 在 statics 目录下创建 css 目录，js 目录，images 目录，plugins 目录， 分别放 css文件，js文件，图片，插件。
 def runoob_static(request):
     context = {}
-    
+
     return render(request, 'runoob_static.html', context)
+
+def runoob_child(request):
+    context = {}
+
+    return render(request, 'runoob_child.html', context)
