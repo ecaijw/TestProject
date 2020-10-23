@@ -56,3 +56,9 @@ def runoob3(request):
 
     # return render(request, 'runoob3.html', {"views_list":views_list, "views_dict":views_dict})
     return render(request, 'runoob3.html', context)
+
+# 在 statics 目录下创建 css 目录，js 目录，images 目录，plugins 目录， 分别放 css文件，js文件，图片，插件。
+def runoob_static(request):
+    context = {}
+    
+    return render(request, 'runoob_static.html', context)
