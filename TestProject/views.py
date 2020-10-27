@@ -2,10 +2,28 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
+# from django.http import HttpRequest
 
+# https://blog.csdn.net/qq_37049781/article/details/79705890
+# manage.py runserver 127.0.0.1:8000
 
 def hello(request):
-    return HttpResponse("你好，Hello world! ver 2.0")
+
+    print(type(request))
+    print(request.method)
+    path = request.get_full_path()
+    print(path)
+    host = request.get_host()
+    print(host)
+    print(request.get_port())
+    print("dump host info")
+    print(type(host))
+    print(type(path))
+
+    if (host.find('localhost') != -1):
+        return HttpResponse("你好，Hello world! ver 2.0: localhost")
+    if (host.find('127.0.0.1') != -1):
+        return HttpResponse("你好，Hello world! ver 2.0: 127.0.0.1")
 
 # add an object
 # 可以看到，我们这里使用render来替代之前使用的HttpResponse。render还使用了一个字典context作为参数。

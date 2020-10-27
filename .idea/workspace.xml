@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f7cc10-a7b4-455d-8185-9196d06ff018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/runoob_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/runoob_child.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +46,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1059" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1603769085598">
+      <screen x="0" y="0" width="1832" height="1080" />
+    </state>
+    <state x="1059" y="367" key="com.intellij.ide.util.TipDialog/0.0.1832.1080@0.0.1832.1080" timestamp="1603769085598" />
     <state width="600" height="408" key="javadoc.popup" timestamp="1603188982242">
       <screen x="0" y="0" width="1832" height="1080" />
     </state>
     <state width="600" height="408" key="javadoc.popup/0.0.1832.1080@0.0.1832.1080" timestamp="1603188982242" />
+    <state x="1030" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603769796268">
+      <screen x="0" y="0" width="1832" height="1080" />
+    </state>
+    <state x="1030" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1832.1080@0.0.1832.1080" timestamp="1603769796268" />
   </component>
 </project>
