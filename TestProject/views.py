@@ -2,10 +2,6 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
-# from django.http import HttpRequest
-
-# https://blog.csdn.net/qq_37049781/article/details/79705890
-# manage.py runserver 127.0.0.1:8000
 
 def hello(request):
 

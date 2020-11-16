@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
-from . import views
+from . import views, testdb
 
 urlpatterns = [
     path('runoob/', views.runoob),
@@ -24,6 +24,7 @@ urlpatterns = [
     path('runoob3/', views.runoob3),
     path('runoob_static/', views.runoob_static),
     path('runoob_child/', views.runoob_child),
+    path('testdb/', testdb.testdb),
     path('hello/', views.hello),
     url(r'^$', views.hello),
     path('polls/', include('polls.urls')),
