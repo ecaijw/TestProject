@@ -10,6 +10,9 @@ mysql>show databases; 显示所有数据库
 mysql>show tables; 显示数据库mysql中所有的表：先use mysql；然后
 mysql>describe user; 显示表mysql数据库中user表的列信息）；
 
+use runoob;
+show tables;
+select * from runoob;
 
 $ python3 manage.py migrate   # 创建表结构
 $ python3 manage.py makemigrations TestModel  # 让 Django 知道我们在我们的模型有一些变更
@@ -24,3 +27,6 @@ Operations to perform:
   Apply all migrations: TestModel
 Running migrations:
   Applying TestModel.0001_initial... OK
+
+
+git push master master
