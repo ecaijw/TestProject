@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
-from . import views, testdb
+from . import views, testdb, search
 
 urlpatterns = [
     path('runoob/', views.runoob),
@@ -28,6 +28,8 @@ urlpatterns = [
     path('testdbAdd/', testdb.testdbAdd),
     path('testdbUpdate/', testdb.testdbUpdate),
     path('testdbDelete/', testdb.testdbDelete),
+    url(r'^search-form/$', search.search_form),
+    url(r'^search/$', search.search),
     path('hello/', views.hello),
     url(r'^$', views.hello),
     path('polls/', include('polls.urls')),
